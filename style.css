@@ -16,7 +16,6 @@
        margin: 0 auto;
        padding: 44px 23px 24px;
 
-
    }
 
    .roboto-regular {
@@ -35,25 +34,28 @@
 
 
    .logo-top {
-       width: 200px;
-       height: 200px;
+       width: 150px;
+       height: 150px;
        display: block;
        margin: 20px auto;
 
    }
 
-   .moeda-girando-esq {
-    margin: 10px 25px;
+   /* .moeda-girando-esq {
+    display: block;
+       width: 70px;
+       height: 70px;
+    margin:;
       
 
    }
-   /* .moeda-girando-dirt { talvez deixe assim 
-     display: inline-block;
-       width: 50px;
-       height: 50px;
-       margin: 20px auto;
+   .moeda-girando-dirt {
+     display: block;
+       width: 70px;
+       height: 70px;
+       margin-left: 270px;
 
-   } */
+   }  */
 
    label {
        display: block;
@@ -64,20 +66,22 @@
        width: 327px;
        height: 72px;
        margin: 20px auto;
-       
+
    }
 
    select {
        width: 327px;
        height: 50px;
        border-radius: 4px;
-       border: 1;
+       border: 1 solid;
        font-family: Roboto;
        font-size: 16px;
        font-weight: 700;
        color: rgba(85, 85, 85, 1);
        background: white;
-       
+       padding: 10px;
+       margin-top: 10px;
+
 
    }
 
@@ -85,7 +89,15 @@
        width: 327px;
        height: 50px;
        border-radius: 4px;
-       border: 1;
+       border: 1 solid;
+       padding: 10px;
+       margin-top: 10px;
+       font-family: Roboto;
+       font-size: 16px;
+       font-weight: 700;
+       color: rgba(85, 85, 85, 1);
+
+
    }
 
    button {
@@ -95,14 +107,38 @@
        font-size: 18px;
        color: white;
        background: rgba(119, 47, 211, 1);
+       cursor: pointer;
 
    }
 
+
    section {
        display: block;
-       width: 127px;
-       height: 251px;
-       margin: -280px auto;
+       width: 327px;
+       height: 290px;
+       margin: -310px auto;
        text-align: center;
-       background: green;
+       border: 1px solid rgba(119, 47, 211, 1);
+       border-radius: 20px;
+   }
+
+   div {
+       padding: 10px 10px;
+   }
+
+   p {
+       font-family: Roboto;
+       font-size: 14px;
+       font-weight: 400px;
+       color: rgba(119, 119, 119, 1);
+
+   }
+
+   .p-valor-1,
+   .p-valor-2 {
+       font-family: Roboto;
+       font-size: 20px;
+       font-weight: 700;
+       color: rgba(85, 85, 85, 1);
+
    }
