@@ -136,8 +136,8 @@
 
    }
 
-   .p-valor-1,
-   .p-valor-2 {
+   .currency-value-to-convert,
+   .currency-value-converted {
        font-family: Roboto;
        font-size: 20px;
        font-weight: 700;
